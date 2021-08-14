@@ -3,9 +3,8 @@
   "sap.app": {
     "id": "sap.ui.demo.walkthrough",
     "type": "application",
-    "i18n": "i18n/i18n.properties",
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
+    "title": "UI5 ToDo app",
+    "description": "Todo app",
     "applicationVersion": {
       "version": "1.0.0"
     }
@@ -30,15 +29,6 @@
         "sap.m": {}
       }
     },
-    "models": {
-      "i18n": {
-        "type": "sap.ui.model.resource.ResourceModel",
-        "settings": {
-          "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-          "supportedLocales": [""],
-          "fallbackLocale": ""
-        }
-      }
-    }
+    "models": {}
   }
 }
