@@ -8,16 +8,21 @@
         <Page title="ToDo App Page">
           <content>
               <Panel
-                headerText="ToDo App Panel">
+                headerText="ToDo App Panel"
+                class="sapUiResponsiveMargin"
+							  width="auto">
                 <content>
                   <Button
                     text="Say Hello"
-                    press=".onShowHello"/>
+                    press=".onShowHello"
+                    class="sapUiSmallMarginEnd"/>
                   <Input
                     value="{/recipient/name}"
-                    description="Hello {/recipient/name}"
                     valueLiveUpdate="true"
                     width="60%"/>
+                  <Text
+									  text="Hello {/recipient/name}"
+									  class="sapUiSmallMargin"/>
                 </content>
               </Panel>
           </content>
