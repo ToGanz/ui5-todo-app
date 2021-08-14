@@ -7,24 +7,7 @@
     <pages>
         <Page title="ToDo App Page">
           <content>
-              <Panel
-                headerText="ToDo App Panel"
-                class="sapUiResponsiveMargin"
-							  width="auto">
-                <content>
-                  <Button
-                    text="Say Hello"
-                    press=".onShowHello"
-                    class="myCustomButton"/>
-                  <Input
-                    value="{/recipient/name}"
-                    valueLiveUpdate="true"
-                    width="60%"/>
-                  <FormattedText
-					          htmlText="Hello {/recipient/name}"
-									  class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
-                </content>
-              </Panel>
+            <mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
           </content>
         </Page>
     </pages>
