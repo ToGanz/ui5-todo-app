@@ -29,6 +29,14 @@
         "sap.m": {}
       }
     },
-    "models": {}
+    "models": {},
+
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    }
   }
 }
