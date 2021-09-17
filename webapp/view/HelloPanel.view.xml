@@ -8,15 +8,15 @@
     width="auto">
     <content>
       <Button
-        text="Say Hello"
+        text="Add Todo"
         press=".onShowHello"
         class="myCustomButton"/>
       <Input
-        value="{/recipient/name}"
+        value="{/todo/title}"
         valueLiveUpdate="true"
         width="60%"/>
       <FormattedText
-        htmlText="Hello {/recipient/name}"
+        htmlText="{/todo/title}"
         class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
     </content>
   </Panel>
