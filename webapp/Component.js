@@ -12,9 +12,14 @@ sap.ui.define(
         UIComponent.prototype.init.apply(this, arguments);
         // set data model
         var oData = {
-          todo: {
-            title: ''
-          }
+          todos: [
+            {
+              title: '1'
+            },
+            {
+              title: '2'
+            }
+          ]
         };
         var oModel = new JSONModel(oData);
         this.setModel(oModel);
