@@ -7,17 +7,14 @@
     class="sapUiResponsiveMargin"
     width="auto">
     <content>
-      <Button
-        text="Add Todo"
-        press=".onShowHello"
-        class="myCustomButton"/>
       <Input
-        value="{/todo/title}"
+        value="{newTodo>/newTodo/title}"
         valueLiveUpdate="true"
         width="60%"/>
-      <FormattedText
-        htmlText="{/todo/title}"
-        class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+      <Button
+        text="Add Todo"
+        press=".onSubmit"
+        class="myCustomButton"/>
     </content>
   </Panel>
 </mvc:View>
